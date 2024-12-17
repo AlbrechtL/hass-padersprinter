@@ -93,7 +93,7 @@ These sensors provides attributes which can be used in [*HTML card*](https://git
 
 ## Acknowledgement
 
-I would like to thanks to following projects. Without these great works this Home Assistant component would not be possible
+I would like to thanks to following projects. Without these great work this Padersprinter Home Assistant component would not be possible.
 * [MPK Kraków sensor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-MPK-KR)
 * [Kraków TTSS-documentation](https://github.com/Delay-Team/Cracow-Public-Transport-Dashboard/wiki/TTSS-documentation)
 * https://aczepielik.github.io/post/kraktram/
