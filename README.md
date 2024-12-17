@@ -35,7 +35,7 @@ sensor:
         directions:
           - "Gesseln"
 ```
-Value for `stop_id` can be retrieved from [*stations.html*](https://raw.githubusercontent.com/AlbrechtL/hass-padersprinter/refs/heads/master/stations.html).
+Value for `id` can be retrieved from [*stations.md*](https://github.com/AlbrechtL/hass-padersprinter/blob/master/stations.md).
 
 ## Installation
 
