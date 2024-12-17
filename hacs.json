@@ -1,8 +1,8 @@
 {
-  "name": "MPK Kraków",
+  "name": "Padersprinter",
   "domains": ["sensor"],
-  "country": "PL",
+  "country": "DE",
   "render_readme": true,
   "zip_release": true,
-  "filename": "mpk_kr.zip"
+  "filename": "padersprinter.zip"
 }

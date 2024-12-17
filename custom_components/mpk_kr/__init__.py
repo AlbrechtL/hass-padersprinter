@@ -1,1 +1,1 @@
-"""MPK Kraków"""
+"""Padersprinter"""

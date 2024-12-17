@@ -1,11 +1,11 @@
 {
-  "domain": "mpk_kr",
-  "name": "MPK KR",
-  "documentation": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-MPK-KR",
-  "issue_tracker": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-MPK-KR/issues",
+  "domain": "padersprinter",
+  "name": "Padersprinter",
+  "documentation": "https://github.com/AlbrechtL/hass-padersprinter",
+  "issue_tracker": "https://github.com/AlbrechtL/hass-padersprinter/issues",
   "dependencies": [],
-  "codeowners": ["@PiotrMachowski"],
+  "codeowners": ["@AlbrechtL"],
   "requirements": ["requests"],
-  "version": "v1.0.2",
+  "version": "v0.0.1",
   "iot_class": "cloud_polling"
 }
