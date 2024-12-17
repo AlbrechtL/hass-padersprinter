@@ -63,15 +63,13 @@ rm padersprinter.zip
 These sensors provides attributes which can be used in [*HTML card*](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-HTML-card) (recommend install via HACS): `html_timetable`, `html_departures`
   * HTML card:
     ```yaml
-    cards:
-    - type: custom:html-card
-      title: Padersprinter Hauptbanhof
-      content: |
-        <big><center>Timetable</center></big>
-        [[ sensor.padersprinter_1000_departure.attributes.html_timetable ]]
-        <big><center>Departures</center></big>
-        [[ sensor.padersprinter_1000_departure.attributes.html_departures ]]
-
+    type: custom:html-card
+    title: Bus Hauptbahnhof
+    content: |
+      <big><center>Abfahrt lt. Fahrplan</center></big>
+      [[ sensor.padersprinter_1000_departure.attributes.html_timetable ]]
+      <big><center>Echtzeit Abfahrten</center></big>
+      [[ sensor.padersprinter_1000_departure.attributes.html_departures ]]
     ```
 
 ## Padersprinter API
