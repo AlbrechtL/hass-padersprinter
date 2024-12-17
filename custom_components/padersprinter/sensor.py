@@ -196,7 +196,7 @@ class MpkKrSensor(Entity):
         if len(lines) == 0:
             html = (
                 html
-                + '<tr><td style="text-align: center; padding: 4px">Brak połączeń</td>'
+                + '<tr><td style="text-align: center; padding: 4px">Keine Verbindungen</td>'
             )
         html = html + "</table>"
         return html
