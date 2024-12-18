@@ -2,24 +2,10 @@
 
 This sensor uses official API provided by Padersprinter in Paderborn, Germany.
 
+![Padersprinter Hauptbahnhof stop HTML card](screenshots/pb_hauptbahnhof_htmlcard.png)
+
 Thanks to [Piotr Machowski](https://github.com/PiotrMachowski) who implemented the [MPK Kraków sensor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-MPK-KR). Obviously, Kraków, Poland is using the same information system as Paderborn. 
 
-## Configuration options
-
-| Key | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
-| `name` | `string` | `False` | `Padersprinter` | Name of sensor |
-| `stops` | `list` | `True` | - | List of stop configurations |
-
-### Stop configuration
-
-| Key | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
-| `id` | `positive integer` | `True` | - | ID of a stop |
-| `mode` | `string` | `False` | `departure` | One of `departure` or `arrival` |
-| `name` | `string` | `False` | id | Name of a stop |
-| `lines` | `list` | `False` | all available | List of monitored lines. |
-| `directions` | `list` | `False` | all available | List of monitored directions. |
 
 ## Example usage
 
@@ -37,26 +23,23 @@ sensor:
 ```
 Value for `id` can be retrieved from [*stations.md*](https://github.com/AlbrechtL/hass-padersprinter/blob/master/stations.md).
 
-## Installation
 
-### Using [HACS](https://hacs.xyz/) (recommended)
+#### Configuration options
 
-This integration can be added to HACS as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories):
-* URL: `https://github.com/AlbrechtL/hass-padersprinter`
-* Category: `Integration`
+| Key | Type | Required | Default | Description |
+| --- | --- | --- | --- | --- |
+| `name` | `string` | `False` | `Padersprinter` | Name of sensor |
+| `stops` | `list` | `True` | - | List of stop configurations |
 
-After adding a custom repository you can use HACS to install this integration using user interface.
+#### Stop configuration
 
-### Manual
-
-To install this integration manually you have to download [*padersprinter.zip*](https://github.com/AlbrechtL/hass-padersprinter/releases/latest/download/padersprinter.zip) and extract its contents to `config/custom_components/padersprinter` directory:
-```bash
-mkdir -p custom_components/padersprinter
-cd custom_components/padersprinter
-wget https://github.com/AlbrechtL/hass-padersprinter/releases/latest/download/padersprinter.zip
-unzip padersprinter.zip
-rm padersprinter.zip
-```
+| Key | Type | Required | Default | Description |
+| --- | --- | --- | --- | --- |
+| `id` | `positive integer` | `True` | - | ID of a stop. See [*stations.md*](https://github.com/AlbrechtL/hass-padersprinter/blob/master/stations.md) |
+| `mode` | `string` | `False` | `departure` | One of `departure` or `arrival` |
+| `name` | `string` | `False` | id | Name of a stop |
+| `lines` | `list` | `False` | all available | List of monitored lines. |
+| `directions` | `list` | `False` | all available | List of monitored directions. |
 
 ## Dashboard
 
@@ -68,9 +51,33 @@ These sensors provides attributes which can be used in [*HTML card*](https://git
     content: |
       <big><center>Abfahrt lt. Fahrplan</center></big>
       [[ sensor.padersprinter_1000_departure.attributes.html_timetable ]]
+      <br>
       <big><center>Echtzeit Abfahrten</center></big>
       [[ sensor.padersprinter_1000_departure.attributes.html_departures ]]
     ```
+
+## Installation
+
+#### Using [HACS](https://hacs.xyz/) (recommended)
+
+This integration can be added to HACS as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories):
+* URL: `https://github.com/AlbrechtL/hass-padersprinter`
+* Category: `Integration`
+
+After adding a custom repository you can use HACS to install this integration using user interface.
+
+#### Manual
+
+To install this integration manually you have to download [*padersprinter.zip*](https://github.com/AlbrechtL/hass-padersprinter/releases/latest/download/padersprinter.zip) and extract its contents to `config/custom_components/padersprinter` directory:
+```bash
+mkdir -p custom_components/padersprinter
+cd custom_components/padersprinter
+wget https://github.com/AlbrechtL/hass-padersprinter/releases/latest/download/padersprinter.zip
+unzip padersprinter.zip
+rm padersprinter.zip
+```
+
+
 
 ## Padersprinter API
 
