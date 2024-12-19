@@ -22,6 +22,6 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: /home/runner/work/hass-padersprinter/hass-padersprinter/custom_components/padersprinter/padersprinter.zip
-          asset_name: mpk_kr.zip
+          asset_name: padersprinter.zip
           tag: ${{ github.ref }}
           overwrite: true
