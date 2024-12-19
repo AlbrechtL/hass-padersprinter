@@ -7,6 +7,7 @@ on:
 
 jobs:
   build:
+    if: false # Temporary disable it because it is not adapt to Padersprinter
     name: Automatically merge master to dev
     runs-on: ubuntu-latest
     steps:
