@@ -1,11 +1,11 @@
 {
   "domain": "padersprinter",
   "name": "Padersprinter",
-  "documentation": "https://github.com/AlbrechtL/hass-padersprinter",
-  "issue_tracker": "https://github.com/AlbrechtL/hass-padersprinter/issues",
-  "dependencies": [],
   "codeowners": ["@AlbrechtL"],
+  "dependencies": [],
+  "documentation": "https://github.com/AlbrechtL/hass-padersprinter",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/AlbrechtL/hass-padersprinter/issues",
   "requirements": ["requests"],
-  "version": "v0.0.4",
-  "iot_class": "cloud_polling"
+  "version": "v0.0.4"
 }
