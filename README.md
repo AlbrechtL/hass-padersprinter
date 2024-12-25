@@ -77,7 +77,9 @@ unzip padersprinter.zip
 rm padersprinter.zip
 ```
 
-
+## HACS integration status
+* [ ] HACS integration: https://github.com/hacs/default/pull/2941 (open)
+* [x] Home Assistant brands (logos and icons) integration: [https://github.com/hacs/default/pull/2941](https://github.com/home-assistant/brands/pull/6247) (merged)
 
 ## Padersprinter API
 
