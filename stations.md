@@ -26,6 +26,8 @@
 | Arena / Almeaue                          | 3800 | bus      |
 | Auf der Lieth                            | 2004 | bus      |
 | Ausbesserungswerk                        | 1025 | bus      |
+| BTH-BVO-PS  Paderborn                    | 5000 | bus      |
+| BTH-BVP-PS  Paderborn                    | 7000 | other    |
 | BTH-PSP  Paderborn                       | 9000 | bus      |
 | BTH-go.on-PS  Paderborn                  | 6000 | bus      |
 | Bahneinschnitt                           | 1026 | bus      |
@@ -74,6 +76,7 @@
 | Dubelohstraße                            | 3109 | bus      |
 | Dören Park                               | 2013 | bus      |
 | Dörener Feld                             | 2012 | bus      |
+| Dörenerholzweg                           | 3304 | bus      |
 | Ebbinghauser Weg                         | 2059 | bus      |
 | Edith-Ostendorf-Weg                      | 2062 | bus      |
 | Eggertstraße                             | 2015 | bus      |
@@ -180,6 +183,7 @@
 | Liethberg                                | 2033 | bus      |
 | Liethstaudamm                            | 2034 | bus      |
 | Lindenweg                                | 1079 | bus      |
+| Lippesee Süd                             | 3912 | bus      |
 | Lippspringer Straße                      | 3300 | bus      |
 | Lortzingweg                              | 2035 | bus      |
 | Lothringer Weg                           | 1080 | bus      |
