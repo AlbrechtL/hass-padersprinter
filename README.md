@@ -58,13 +58,13 @@ These sensors provides attributes which can be used in [*HTML card*](https://git
 
 ## Installation
 
-#### Using [HACS](https://hacs.xyz/) (recommended)
+You can install manually or by using [HACS](https://hacs.xyz/) (the easier way).
 
-This integration can be added to HACS as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories):
-* URL: `https://github.com/AlbrechtL/hass-padersprinter`
-* Category: `Integration`
+#### HACS
 
-After adding a custom repository you can use HACS to install this integration using user interface.
+1. Go to `HACS`
+2. Search for `Padersprinter`
+
 
 #### Manual
 
@@ -76,10 +76,6 @@ wget https://github.com/AlbrechtL/hass-padersprinter/releases/latest/download/pa
 unzip padersprinter.zip
 rm padersprinter.zip
 ```
-
-## HACS integration status
-* [ ] HACS integration: https://github.com/hacs/default/pull/2941 (open)
-* [x] Home Assistant brands (logos and icons) integration: [https://github.com/hacs/default/pull/2941](https://github.com/home-assistant/brands/pull/6247) (merged)
 
 ## Padersprinter API
 
